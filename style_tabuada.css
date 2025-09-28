@@ -1,0 +1,69 @@
+/*estilo do corpo da página*/
+body{
+    background: rgba(184, 117, 41, 0.779);
+    font: normal 15pt Arial;
+}
+
+header{
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+section{
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 300px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.363);
+}
+
+div{
+    text-align: center;
+    padding: 8px;
+}
+
+footer{
+    color: white;
+    text-align: center;
+    font-style: italic;
+    margin-top: 12px;
+    font-size: 15px;
+    opacity: 1.0;
+    transition: opacity 400ms;
+}
+
+footer:hover{
+    opacity: 1;
+}
+
+a{ 
+    text-decoration: none;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+button{
+    height: 40px;
+    width: 150px;
+    align-items: center;
+    margin-top: 6px;
+    border-radius: 6px;
+    color: white;
+    background-color: rgb(41, 40, 40);
+    transition: background 400ms;
+}
+
+button:hover{
+    background: rgb(179, 177, 177);
+}
+
+table{
+    margin: auto;
+    border-collapse:collapse;
+    width: 100%;
+}
+
+input{
+    text-align: center;
+}

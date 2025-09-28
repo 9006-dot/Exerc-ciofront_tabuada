@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+<!--garante compatibilidade om navegadores antigos-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--garante responsividade-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabuada</title>
+    <!--Interliga com css externo-->
+    <link rel="stylesheet" href="style_tabuada.css">
+</head>
+<body>
+    <!--cabeçalho-->
+    <header>
+        <h1>Gerador de tabuada</h1>
+    </header>
+    <!--aréa principal da página -->
+    <section>
+        <div>
+            <p>
+                Número <br>
+                <!--campo para digitar o número desejado-->
+                <input type="number" id="txtnum" placeholder="Ex:5"><br>
+                <!--botão que chama a funçaõ "gerarTabuada" no js-->
+                <button onclick="tabuada()">Gerar Tabuada</button>
+            </p>
+        </div>
+        <div>
+            <select name="tabuada" id="seltab" size="10">
+
+            </select>
+        </div>
+    </section>
+    <!--rodapé da página-->
+    <footer>
+        Desenvolvido por: <br>
+        <a> João Guilherme Rocchigiani R. da Fonseca</a>
+    </footer>
+    <!--Interliga com um js exetrno-->
+    <script src="tabuada.js"></script>
+</body>
+</html>
